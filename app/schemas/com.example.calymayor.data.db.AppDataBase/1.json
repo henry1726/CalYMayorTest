@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "d9b2b2a846544f1c4b70524ea95a80d9",
+    "entities": [
+      {
+        "tableName": "select_options",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`idProvision` INTEGER NOT NULL, `optionSelect` INTEGER NOT NULL, `photo` TEXT NOT NULL, PRIMARY KEY(`idProvision`))",
+        "fields": [
+          {
+            "fieldPath": "idProvision",
+            "columnName": "idProvision",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "optionSelect",
+            "columnName": "optionSelect",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "photo",
+            "columnName": "photo",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "idProvision"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'd9b2b2a846544f1c4b70524ea95a80d9')"
+    ]
+  }
+}

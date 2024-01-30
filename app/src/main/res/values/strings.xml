@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CalYMayor</string>
+    <string name="downloadActivity">Descargar catálogo</string>
+    <string name="consultCatalogue">Consultar catálogo</string>
+    <string name="name">Campo: 1</string>
+    <string name="no_info">Sin datos</string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
+    <string name="na">N/A</string>
+    <string name="papper">Papel</string>
+    <string name="towels">Toallas</string>
+    <string name="deodorant">Desodorante</string>
+    <string name="soap">Jabón</string>
+    <string name="water">Agua</string>
+    <string name="save_selection">Selección guardada</string>
+    <string name="take_photo">Tomar foto</string>
+    <string name="no_permission">Acepta el permiso de cámara</string>
+</resources>

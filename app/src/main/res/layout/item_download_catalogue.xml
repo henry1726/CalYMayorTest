@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimen_5dp"
+    app:cardCornerRadius="@dimen/dimen_6dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:padding="@dimen/dimen_5dp">
+
+        <TextView
+            android:id="@+id/tv_idProvision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_4dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_text_16sp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/name" />
+
+        <TextView
+            android:id="@+id/tv_typeProvision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:padding="@dimen/dimen_4dp"
+            android:textSize="@dimen/dimen_text_16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_idProvision" />
+
+        <TextView
+            android:id="@+id/tv_createBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:padding="@dimen/dimen_4dp"
+            android:textSize="@dimen/dimen_text_16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_typeProvision" />
+
+        <TextView
+            android:id="@+id/tv_modifyBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:padding="@dimen/dimen_4dp"
+            android:textSize="@dimen/dimen_text_16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_createBy" />
+
+        <TextView
+            android:id="@+id/tv_deleteBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:padding="@dimen/dimen_4dp"
+            android:textSize="@dimen/dimen_text_16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_modifyBy"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_dateCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:padding="@dimen/dimen_4dp"
+            android:textSize="@dimen/dimen_text_16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_deleteBy"
+            app:layout_constraintEnd_toEndOf="parent"/>
+        <TextView
+            android:id="@+id/tv_dateModify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:padding="@dimen/dimen_4dp"
+            android:textSize="@dimen/dimen_text_16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_dateCreate"
+            app:layout_constraintEnd_toEndOf="parent"/>
+        <TextView
+            android:id="@+id/tv_dateDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:padding="@dimen/dimen_4dp"
+            android:textSize="@dimen/dimen_text_16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_dateModify"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
